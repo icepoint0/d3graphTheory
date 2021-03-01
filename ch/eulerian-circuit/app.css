@@ -1,15 +1,15 @@
 svg {
   display: block;
-  margin:auto;
+  margin: auto;
 }
 
 .edge {
   stroke: #aaa;
-  stroke-width:3px;
+  stroke-width: 3px;
   cursor: pointer;
 }
 
-.edge:hover, .dragLine {
+.edge:hover {
   stroke: #333;
   stroke-width: 3px;
 }
@@ -21,10 +21,6 @@ svg {
 .vertex:hover {
   stroke: #333;
   opacity: 1;
-}
-
-.dragLine.hidden {
-	stroke-width:0;
 }
 
 .vertex text {
@@ -41,15 +37,17 @@ svg {
 
 .walk-vertex {
   stroke: #333;
-  stroke-width:3px;
+  stroke-width: 3px;
 }
 
 .walk-start {
   stroke: #ff0;
+  stroke-width: 5px;
 }
 
 .walk-end {
   stroke: #8f3;
+  stroke-width: 5px;
 }
 
 #prob-list a {
